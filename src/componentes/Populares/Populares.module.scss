@@ -1,0 +1,32 @@
+@import "../../styles/variaveis";
+
+.populares {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 800px;
+  color: $roxo;
+  font-family: $fonte-normal;
+  font-size: 16px;
+
+  h2 {
+    margin-top: 5.3rem;
+  }
+
+  &__imagens {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 77%;
+    padding: 0;
+    list-style: none;
+
+    img {
+      width: 140px;
+      height: 90px;
+    }
+  }
+
+
+}
